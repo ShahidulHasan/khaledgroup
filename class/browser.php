@@ -19,7 +19,7 @@ class Browser {
                     if(file_exists('pages/'.$pages)){
                         require_once('pages/'.$pages); 		
                     }else{
-                            echo"Your required url was not found";
+                            echo"Your required url was not ok found";
                     }
             }else{
                     require_once('home/home.php');
